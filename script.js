@@ -4,11 +4,11 @@ function sendMoney(){
    var enterName = document.getElementById("enterName").value;
    var enterAmount = parseInt(document.getElementById("enterAmount").value);
   
-   check for the cutsomer exitsing.
-   if(enterName != document.getElementById("enterName").value){
-      alert(`User doesnt exist`);
-   }
-   //check ends here.
+   // check for the cutsomer exitsing.
+   // if(enterName != document.getElementById("enterName").value){
+   //    alert(`User doesnt exist`);
+   // }
+   // //check ends here.
    if (enterAmount > 10000 ) {
       alert("Amount should not exceed ₹10000.")
    } 
