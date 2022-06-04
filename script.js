@@ -26,7 +26,7 @@ function sendMoney(){
       document.getElementById(findUserBankAccount).innerHTML = finalAmount;
       document.getElementById(findUserPayment).innerHTML = PaymentAmount;
       alert(`Transaction Successful!!  
-      ₹${enterAmount} is sent to ${enterName}@email.com.`)
+      ₹${enterAmount} is sent to ${enterName}@gmail.com.`)
 
       // transaction history 
       var createPTag = document.createElement("li");
