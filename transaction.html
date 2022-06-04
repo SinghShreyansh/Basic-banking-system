@@ -28,7 +28,10 @@
                     <a class="nav-link" href="./index.html">Home </a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link bgcolor-sm" href="transaction.html">Send Money</a>
+                    <a class="nav-link bgcolor-sm" href="" data-toggle="modal" data-target="#sendMoney">Send Money</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link bgcolor-sm" data-toggle="modal" data-target="#transactionHistory">Transactions History</a>
                 </li>
             </ul>
         </div>
@@ -38,9 +41,6 @@
     <div class="my-info text-center">
         <h2>Account Holder: Shreyansh Singh</h2>
         <h4>Available Bank Balance: ₹<span id="myAccountBalance">350000</span></h4>
-
-        <button class="btn btn-info" data-toggle="modal" data-target="#sendMoney">Send Money</button>
-        <a class="btn btn-info" href="" data-toggle="modal" data-target="#transactionHistory">Transactions History</a>
     </div>
 
     <!-- Modal send money -->
